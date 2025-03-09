@@ -1,4 +1,5 @@
 # vue3-rabbit
+learning vue3 step by step with itheima.com, I am Henry.
 
 This template should help get you started developing with Vue 3 in Vite.
 
