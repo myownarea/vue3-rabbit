@@ -5,9 +5,9 @@
 <template>
   <!-- 一级路由出口组件 -->
    <RouterView />
-   <div class="test">
+   <!-- <div class="test">
     test
-   </div>
+   </div> -->
 </template>
 
 <script lang="ts" setup>
