@@ -1,3 +1,8 @@
+<script setup>
+
+</script>
 <template>
-  <div>分类页</div>
+  <div class="top-category">
+    分类页
+    </div>
 </template>

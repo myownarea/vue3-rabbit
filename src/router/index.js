@@ -17,7 +17,7 @@ import Category from '@/views/Category/index.vue'
           component: Home,
         },
         {
-          path: 'category',
+          path: 'category/:id',
           component: Category,
         }
       ]
