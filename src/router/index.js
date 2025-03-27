@@ -30,7 +30,13 @@ import SubCategory from '@/views/SubCategory/index.vue'
       path: '/login',
       component: Login,
     }
-  ]
+  ],
+  //路由滚动定制规则
+  scrollBehavior(){
+    return {
+      top:0
+    }
+  }
 })
 
 export default router
