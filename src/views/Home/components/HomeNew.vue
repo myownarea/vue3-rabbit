@@ -8,9 +8,9 @@
   const getNewList = async () => {
     const res = await findNewAPI()
     newList.value = res.result
-    console.log(res)
+    // console.log(res)
     }
-    console.log(newList)
+    // console.log(newList)
 
   onMounted(() => {
     getNewList()
