@@ -18,12 +18,14 @@ import '@/styles/common.scss'
 import {lazyPlugin} from '@/directives'
 
 //引入全局组件插件
+import {componentsPlugin} from '@/components'
 const app = createApp(App)
 const pinia = createPinia()
 
 app.use(pinia)
 app.use(router)
 app.use(lazyPlugin)
+app.use(componentsPlugin)
 
 
 
